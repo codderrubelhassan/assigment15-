@@ -1,0 +1,168 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+img{
+    max-width: 100%;
+}
+.fixed-with{
+    width: 1250px;
+    height:auto;
+}
+.text-center{
+    text-align: center;
+    color: white;
+}
+.span{
+    font-size: 30px;
+    color: forestgreen;
+}
+.about{
+    text-align: center;
+}
+
+
+
+
+.header{
+background-color: aqua;
+}
+.header-left{
+  float: left;
+  width: 30%;
+}
+.header-left img{
+    width: 110px;
+}
+.header-right{
+    float: right;
+    width: 70%;
+}
+.header-right ul{
+    text-align: right;
+   
+}
+.header-right ul li{
+    display: inline-block;
+
+}
+.header-right ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 0px 30px;
+    font-size: 20px;
+    color: rgb(159, 21, 21);
+    line-height: 60px;
+    
+}
+.banar{
+    background-image: url(./header-bg01.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+     padding: 200px 0px;
+}
+.main-service{
+    text-align: center;
+}
+.service{
+    display: flex;
+    padding: 0px 30px;
+}
+.service h1{
+    padding: 40px;
+}
+.div1{
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    padding: 30px;
+}
+.div2{
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    padding: 30px;
+}
+.div3{
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    padding: 30px;
+}
+.div4{
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    padding: 30px;
+ 
+}
+.content-div{
+    color: #4f4f4f;
+    padding-bottom: 60px;
+}
+.contact-div .btm-part i:hover{
+    color: #e74c3c;
+    transition: .3s;
+}
+.content-div .about-top-content{
+    text-align: center;
+    padding: 50px 0px;
+}
+.content-div .about-top-content h1{
+    padding: 25px 0px;
+}
+.content-div .about-btm-content{
+    display: flex;
+    margin: 0px 35px;
+}
+.content-div .about-btm-content .content-img{
+    margin-right: 50px;
+}
+.content-div .about-btm-content .content-text .alltext{
+    margin-bottom: 25px;
+}
+..contact-div{
+    background-color: #f6f6f6;
+    color: #4f4f4f;
+    padding: 60px 0px;
+}
+.contact-div .top-part{
+    text-align: center;
+}
+.contact-div .top-part h1{
+    padding: 25px 0px;
+}
+.contact-div .btm-part{
+    display: flex;
+    margin: 0px 50px;
+    padding: 70px 0px;
+}
+.contact-div .btm-part .alltext1{
+    text-align: center;
+    margin: 0 100px;
+    width: 350px;
+}
+.contact-div .btm-part i{
+    font-size: 20px;
+    color: #0dbf9b;
+}
+.footer-section{
+    width: 1270px;
+    height: 40px;
+    background-color: aqua;
+    font-size: 20px;
+    text-align: center;
+    display: inline-block;
+    
+}
+.footer-section span{
+    margin: 0px 20px;
+    padding: 0px 20px;
+}
+
+
